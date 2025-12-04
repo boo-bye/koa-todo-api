@@ -1,0 +1,19 @@
+{
+  "name": "koa-todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node app.js",
+  "dev": "npm install -g nodemon && nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "koa": "^3.1.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^14.0.0"
+  }
+}
